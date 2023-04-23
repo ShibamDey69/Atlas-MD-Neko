@@ -12,6 +12,6 @@ module.exports = {
       "https://dull-plum-panda-gear.cyclic.app/dare"
     );
     
-    await Miku.sendMessage(m.from, {image: { url: botImage4 },caption: `*${shibam.data}*`,}, { quoted: m });
+    await Miku.sendMessage(m.from, {image: { url: botImage4 },caption: `*${shibam.data.dare}*`,}, { quoted: m });
   },
 };
