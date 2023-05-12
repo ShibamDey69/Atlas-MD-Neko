@@ -12,6 +12,6 @@ module.exports = {
       "https://smiling-hosiery-bear.cyclic.app/weeb/truth"
     );
 
-    await Miku.sendMessage(m.from, {image: { url: botImage3 },caption: `*${shibam.data}*`,}, { quoted: m });
+    await Miku.sendMessage(m.from, {image: { url: botImage3 },caption: `*${shibam.data.truth}*`,}, { quoted: m });
   },
 };
